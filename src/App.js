@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Faivorite from "./components/Faivorite";
 
 function App() {
-  const key = "RBLZnRtuLGGdI86AemztAAl8pru3cfWB";
+  const key = "zErHiN42CH8flesshsozcBsTKBiasfV4";
 
   const [cityKey, setCityKey] = useState({
     key: 215854,
