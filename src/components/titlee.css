@@ -1,0 +1,26 @@
+.h{
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+border-bottom: 1px black solid;
+margin-bottom: 10px;
+}
+.m{
+ 
+
+    margin-left: 6px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: rgb(160, 155, 155);
+    color: white;
+    height: 32px;
+  box-shadow:   0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.credit{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-size: small;
+  font-weight: bold;
+}

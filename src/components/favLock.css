@@ -1,0 +1,33 @@
+.favDiv{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 10%;
+    border: 1px solid black;
+    box-shadow:   0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+border-radius: 6px;  
+margin-right: 5px;
+margin-left: 5px;
+margin-bottom: 5px;
+flex-wrap: wrap;
+justify-content: center;
+padding: 7px;
+
+
+}
+
+
+
+.tit:hover,.tit:active{
+    text-decoration-line: underline;
+}
+.btn{
+    
+    
+    border-radius: 6px;
+    border: 0px;
+    background-color: rgb(160, 155, 155);
+    color: white;
+    height: 32px;
+  box-shadow:   0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}

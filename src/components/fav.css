@@ -1,0 +1,6 @@
+.faDiv{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+}
