@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dani_shapiro_27-12-22/static/css/main.cc3ee9d6.css",
+    "main.js": "/dani_shapiro_27-12-22/static/js/main.4384e071.js",
+    "static/js/787.d62d1c65.chunk.js": "/dani_shapiro_27-12-22/static/js/787.d62d1c65.chunk.js",
+    "index.html": "/dani_shapiro_27-12-22/index.html",
+    "main.cc3ee9d6.css.map": "/dani_shapiro_27-12-22/static/css/main.cc3ee9d6.css.map",
+    "main.4384e071.js.map": "/dani_shapiro_27-12-22/static/js/main.4384e071.js.map",
+    "787.d62d1c65.chunk.js.map": "/dani_shapiro_27-12-22/static/js/787.d62d1c65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc3ee9d6.css",
+    "static/js/main.4384e071.js"
+  ]
+}
