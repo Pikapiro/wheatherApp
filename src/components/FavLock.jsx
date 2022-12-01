@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./favLock.css";
 export default function FavLock(props) {
   const nev = useNavigate();
-  const key = "RBLZnRtuLGGdI86AemztAAl8pru3cfWB";
+  const key = "zErHiN42CH8flesshsozcBsTKBiasfV4";
   const [temp, setTemp] = useState([]);
 
   useEffect(() => {
