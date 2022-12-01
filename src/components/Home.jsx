@@ -27,7 +27,7 @@ export default function Home(props) {
 
   useEffect(() => {
     fetch(
-      `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${props.cityKey.key}?apikey=${key}&metric=true`
+      `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${props.cityKey.key}?apikey=${key}&metric=true`
     )
       .then((res) => {
         return res.json();
@@ -36,7 +36,7 @@ export default function Home(props) {
         props.setForcast(data);
       });
     fetch(
-      `http://dataservice.accuweather.com/currentconditions/v1/${props.cityKey.key}?apikey=${key}`
+      `https://dataservice.accuweather.com/currentconditions/v1/${props.cityKey.key}?apikey=${key}`
     )
       .then((res) => {
         return res.json();
@@ -61,7 +61,7 @@ export default function Home(props) {
               }}
               onChange={(val) => {
                 fetch(
-                  `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${key}&q=${val.target.value}`
+                  `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${key}&q=${val.target.value}`
                 )
                   .then((res) => {
                     return res.json();
