@@ -8,7 +8,7 @@ export default function FavLock(props) {
 
   useEffect(() => {
     fetch(
-      `http://dataservice.accuweather.com/currentconditions/v1/${props.k}?apikey=${key}`
+      `https://dataservice.accuweather.com/currentconditions/v1/${props.k}?apikey=${key}`
     )
       .then((res) => {
         return res.json();
